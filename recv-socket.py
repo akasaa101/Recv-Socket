@@ -31,6 +31,7 @@ try :
 except socket.error:
 
     print 'Send failed'
+	print 'update point'
     sys.exit()
 
 print 'Message send successfully'
